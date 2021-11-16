@@ -22,10 +22,10 @@ async function get() {
 
 function create(ip, city, country, region, element, drawn) {
         element.innerHTML = "";
-        element.innerHTML = "your ip: " + ip + "<br>" +
-        element.innerHTML + "your country: " + country + "<br>" +
-        element.innerHTML + "your region: " + region + "<br>"+
-        element.innerHTML + "your city: " + city + "<br>";
+        element.innerHTML = "Your IP: " + ip + "<br>" +
+        element.innerHTML + "Your Country: " + country + "<br>" +
+        element.innerHTML + "Your Region: " + region + "<br>"+
+        element.innerHTML + "Your City: " + city + "<br>";
 }
 
 let myPromise = new Promise(function(myResolve, myReject) {
